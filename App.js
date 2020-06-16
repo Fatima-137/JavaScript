@@ -305,9 +305,9 @@ a = 2 , b =1;
 --a - --b + ++b = 2;
 --a - --b + ++b + b-- = 3; */
 var a=2, b=1;
-var result = --a - --b + ++b + b--;
 document.write("a is " +a+ "<br>");
 document.write("b is " +b+ "<br>");
+var result = --a - --b + ++b + b--;
 document.write("Result is " +result);
 
 // ............Task # 3............ //
@@ -659,10 +659,10 @@ var stringArray = ["Website", "Mobile", "Google"];
 var numberArray = [0, 1, 2, 3, 4, 5];
 
 // ............Task # 5............ //
-var booleanArray = ['true', 'false'];
+var booleanArray = [true, false];
 
 // ............Task # 6............ //
-var mixedArray = ['fruits', 1, 'true', '$', '%'];
+var mixedArray = ['fruits', 1, true, '$', '%'];
 
 // ............Task # 7............ //
 var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
